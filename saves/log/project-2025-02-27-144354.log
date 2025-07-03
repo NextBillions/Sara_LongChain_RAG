@@ -1,0 +1,5 @@
+2025-02-27 14:44:11,171 - INFO - Config - Loading config from saves\config\config.yaml
+2025-02-27 14:44:11,178 - INFO - Yuxi - Selecting model from openai with gpt-4o-mini
+2025-02-27 14:44:19,266 - INFO - EmbeddingModel - Loading embedding model bge-large-zh-v1.5 from E:/githubItem/JB-Know/src/models/BAAI/bge-large-zh-v1.5
+2025-02-27 14:44:20,607 - INFO - EmbeddingModel - Embedding model bge-large-zh-v1.5 loaded
+2025-02-27 14:44:31,705 - ERROR - KnowledgeBase - Failed to connect to Milvus: <MilvusException: (code=2, message=Fail connecting to server on 192.168.32.100:19530, illegal connection params or server unavailable)>

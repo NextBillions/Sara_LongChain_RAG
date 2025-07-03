@@ -1,0 +1,8 @@
+2025-02-27 14:47:32,524 - INFO - Config - Loading config from saves\config\config.yaml
+2025-02-27 14:47:32,530 - INFO - Yuxi - Selecting model from openai with gpt-4o-mini
+2025-02-27 14:47:34,210 - INFO - EmbeddingModel - Loading embedding model bge-large-zh-v1.5 from E:/githubItem/JB-Know/src/models/BAAI/bge-large-zh-v1.5
+2025-02-27 14:47:35,363 - INFO - EmbeddingModel - Embedding model bge-large-zh-v1.5 loaded
+2025-02-27 14:47:36,402 - INFO - KnowledgeBase - Successfully connected to Milvus at http://192.168.32.100:19530
+2025-02-27 14:47:36,905 - INFO - server-graphbase - Connecting to Neo4j at bolt://192.168.32.100:7687/neo4j
+2025-02-27 14:47:40,226 - INFO - server-graphbase - Connected to Neo4j at bolt://192.168.32.100:7687/neo4j, {'database_name': 'neo4j', 'entity_count': 397, 'relationship_count': 377, 'triples_count': 377, 'labels': ['Entity'], 'status': 'open'}
+2025-02-27 14:47:40,227 - INFO - EmbeddingModel - Loading Reranker model bge-reranker-v2-m3 from E:/githubItem/JB-Know/app/src/models/BAAI/bge-reranker-v2-m3

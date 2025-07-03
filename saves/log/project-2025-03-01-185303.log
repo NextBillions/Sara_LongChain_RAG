@@ -1,0 +1,5 @@
+2025-03-01 18:53:12,974 - INFO - Config - Loading config from saves\config\config.yaml
+2025-03-01 18:53:12,976 - INFO - Yuxi - Selecting model from openai with gpt-4o-mini
+2025-03-01 18:53:14,127 - INFO - EmbeddingModel - Loading embedding model bge-large-zh-v1.5 from E:/githubItem/JB-Know/src/models/BAAI/bge-large-zh-v1.5
+2025-03-01 18:53:14,884 - INFO - EmbeddingModel - Embedding model bge-large-zh-v1.5 loaded
+2025-03-01 18:53:15,659 - INFO - KnowledgeBase - Successfully connected to Milvus at http://192.168.32.100:19530

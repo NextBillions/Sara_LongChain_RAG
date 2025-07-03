@@ -1,0 +1,75 @@
+2025-03-01 18:53:45,182 - INFO - Config - Loading config from saves\config\config.yaml
+2025-03-01 18:53:45,184 - INFO - Yuxi - Selecting model from openai with gpt-4o-mini
+2025-03-01 18:53:46,167 - INFO - EmbeddingModel - Loading embedding model bge-large-zh-v1.5 from E:/githubItem/JB-Know/src/models/BAAI/bge-large-zh-v1.5
+2025-03-01 18:53:46,637 - INFO - EmbeddingModel - Embedding model bge-large-zh-v1.5 loaded
+2025-03-01 18:53:47,308 - INFO - KnowledgeBase - Successfully connected to Milvus at http://192.168.32.100:19530
+2025-03-01 18:53:47,465 - INFO - server-graphbase - Connecting to Neo4j at bolt://192.168.32.100:7687/neo4j
+2025-03-01 18:53:47,519 - INFO - server-graphbase - Connected to Neo4j at bolt://192.168.32.100:7687/neo4j, {'database_name': 'neo4j', 'entity_count': 400, 'relationship_count': 379, 'triples_count': 379, 'labels': ['Entity'], 'status': 'open'}
+2025-03-01 18:53:47,520 - INFO - EmbeddingModel - Loading Reranker model bge-reranker-v2-m3 from E:/githubItem/JB-Know/src/models/BAAI/bge-reranker-v2-m3
+2025-03-01 18:53:48,266 - INFO - EmbeddingModel - Reranker model bge-reranker-v2-m3 loaded
+2025-03-01 18:54:15,160 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST', 'k9301c2a7']
+2025-03-01 19:00:51,003 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST', 'k9301c2a7']
+2025-03-01 19:01:02,513 - WARNING - DataBaseManager - Database number not match, ['TTEST', 'k9301c2a7', 'k2af3d318']
+2025-03-01 19:01:04,882 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-03-01 19:01:15,814 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST', 'k9301c2a7']
+2025-03-01 19:01:47,445 - DEBUG - server-chat - Web history: [{'role': 'user', 'content': '贾宝玉今年多少岁？'}, {'role': 'assistant', 'content': '根据提供的资料，我们无法找到贾宝玉今年的年龄。资料中主要涉及人物之间的关系，没有关于年龄的信息。如果需要贾宝玉的年龄，可能需要查阅其他的文学资料或相关作品中的具体描写。'}, {'role': 'user', 'content': '上海在哪里'}]
+2025-03-01 19:02:10,457 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST', 'k9301c2a7']
+2025-03-01 19:02:11,754 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:02:35,704 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST', 'k9301c2a7']
+2025-03-01 19:02:37,401 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:08,344 - DEBUG - server-database - Add document in 9301c2a7 by file: ['saves\\data/uploads\\cjb_6139_.docx']
+2025-03-01 19:04:08,344 - ERROR - DataBaseManager - ============== 9301c2a7
+2025-03-01 19:04:11,042 - INFO - server-chat - Loading file: saves\data/uploads\cjb_6139_.docx
+2025-03-01 19:04:35,787 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:35,798 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:35,808 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:35,829 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:35,842 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:35,856 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:35,869 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:35,881 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:35,896 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:35,921 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:35,938 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:35,952 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:35,971 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:35,984 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:36,004 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:36,020 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:36,042 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:36,057 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:36,071 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:36,102 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:36,117 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:36,131 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:36,146 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:36,168 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:36,181 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:36,193 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:36,204 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:04:36,217 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:05:16,289 - DEBUG - server-database - Query test in {'mode': 'search', 'maxQueryCount': 30, 'filter': True, 'rewriteQuery': 'off', 'rerankThreshold': 0.1, 'distanceThreshold': 0.3, 'topK': 10, 'db_name': 'k9301c2a7'}: 陈金宝就职资格证书有哪些
+2025-03-01 19:05:16,289 - DEBUG - server-common - refs['meta']={'mode': 'search', 'maxQueryCount': 30, 'filter': True, 'rewriteQuery': 'off', 'rerankThreshold': 0.1, 'distanceThreshold': 0.3, 'topK': 10, 'db_name': 'k9301c2a7'}
+2025-03-01 19:06:15,256 - DEBUG - server-database - Query test in {'mode': 'search', 'maxQueryCount': 30, 'filter': True, 'rewriteQuery': 'off', 'rerankThreshold': 0.1, 'distanceThreshold': 0.3, 'topK': 2, 'db_name': 'k9301c2a7'}: 陈金宝就职资格证书有哪些
+2025-03-01 19:06:15,256 - DEBUG - server-common - refs['meta']={'mode': 'search', 'maxQueryCount': 30, 'filter': True, 'rewriteQuery': 'off', 'rerankThreshold': 0.1, 'distanceThreshold': 0.3, 'topK': 2, 'db_name': 'k9301c2a7'}
+2025-03-01 19:06:51,868 - WARNING - DataBaseManager - Database number not match, ['TTEST', 'k9301c2a7', 'k2af3d318']
+2025-03-01 19:07:13,351 - WARNING - DataBaseManager - Database number not match, ['TTEST', 'k9301c2a7', 'k2af3d318']
+2025-03-01 19:07:33,506 - DEBUG - server-common - refs['meta']={'enable_retrieval': True, 'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'rewriteQuery': 'off', 'selectedKB': 0, 'stream': False, 'summary_title': False, 'history_round': 5, 'db_name': 'k9301c2a7'}
+2025-03-01 19:07:42,131 - DEBUG - server-chat - Web history: [{'role': 'user', 'content': '陈金宝就职资格证书有哪些'}]
+2025-03-01 19:08:12,262 - DEBUG - server-common - refs['meta']={'enable_retrieval': True, 'use_graph': False, 'use_web': False, 'graph_name': 'neo4j', 'rewriteQuery': 'off', 'selectedKB': 0, 'stream': True, 'summary_title': True, 'history_round': 5, 'db_name': 'k9301c2a7'}
+2025-03-01 19:08:20,583 - DEBUG - server-chat - Web history: [{'role': 'user', 'content': '陈金宝就职资格证书有哪些'}, {'role': 'assistant', 'content': '根据查询到的资料，陈金宝的就职资格证书信息没有详细列出，因此无法提供具体的证书名称。如果需要更详细的信息，可以考虑进一步查询或获取更全面的资料。'}, {'role': 'user', 'content': '陈金宝就职资格证书有哪些'}]
+2025-03-01 19:08:38,183 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST', 'k9301c2a7']
+2025-03-01 19:08:39,318 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-03-01 19:09:02,343 - DEBUG - server-database - Get graph node 彩云
+2025-03-01 19:10:35,480 - DEBUG - server-database - Get graph node 王老师
+2025-03-01 19:10:48,510 - INFO - server-graphbase - Adding entity 1/2
+2025-03-01 19:10:49,509 - INFO - server-graphbase - Adding entity 2/2
+2025-03-01 19:10:53,654 - DEBUG - server-database - Get graph node 王老师
+2025-03-01 19:11:14,683 - DEBUG - server-database - Get graph nodes in neo4j with 10 nodes
+2025-03-01 19:11:19,654 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-03-01 19:12:44,842 - DEBUG - server-database - Get graph nodes in neo4j with 1000 nodes
+2025-03-01 19:13:21,253 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-03-01 19:16:22,184 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST', 'k9301c2a7']
+2025-03-01 19:16:25,992 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 19:16:29,296 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-03-01 19:21:03,996 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST', 'k9301c2a7']

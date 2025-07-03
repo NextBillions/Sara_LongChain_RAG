@@ -1,0 +1,16 @@
+embed_model: bge-large-zh-v1.5
+enable_knowledge_base: true
+enable_knowledge_graph: true
+enable_reranker: true
+enable_search_engine: false
+filename: saves\config\config.yaml
+model_local_paths: {}
+model_name: gpt-4o-mini
+model_provider: openai
+reranker: bge-reranker-v2-m3
+save_dir: saves
+stream: true
+valuable_model_provider:
+- openai
+- zhipu
+- dashscope

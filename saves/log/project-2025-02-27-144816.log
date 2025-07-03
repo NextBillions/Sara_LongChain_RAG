@@ -1,0 +1,29 @@
+2025-02-27 14:48:33,567 - INFO - Config - Loading config from saves\config\config.yaml
+2025-02-27 14:48:33,573 - INFO - Yuxi - Selecting model from openai with gpt-4o-mini
+2025-02-27 14:48:35,188 - INFO - EmbeddingModel - Loading embedding model bge-large-zh-v1.5 from E:/githubItem/JB-Know/src/models/BAAI/bge-large-zh-v1.5
+2025-02-27 14:48:36,367 - INFO - EmbeddingModel - Embedding model bge-large-zh-v1.5 loaded
+2025-02-27 14:48:37,376 - INFO - KnowledgeBase - Successfully connected to Milvus at http://192.168.32.100:19530
+2025-02-27 14:48:37,816 - INFO - server-graphbase - Connecting to Neo4j at bolt://192.168.32.100:7687/neo4j
+2025-02-27 14:48:37,895 - INFO - server-graphbase - Connected to Neo4j at bolt://192.168.32.100:7687/neo4j, {'database_name': 'neo4j', 'entity_count': 397, 'relationship_count': 377, 'triples_count': 377, 'labels': ['Entity'], 'status': 'open'}
+2025-02-27 14:48:37,896 - INFO - EmbeddingModel - Loading Reranker model bge-reranker-v2-m3 from E:/githubItem/JB-Know/src/models/BAAI/bge-reranker-v2-m3
+2025-02-27 14:48:38,949 - INFO - EmbeddingModel - Reranker model bge-reranker-v2-m3 loaded
+2025-02-27 14:48:46,111 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-02-27 14:49:06,383 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-02-27 14:51:23,288 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-02-27 14:54:22,147 - DEBUG - server-database - Get graph nodes in neo4j with 10 nodes
+2025-02-27 17:05:32,333 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-02-27 17:16:33,880 - INFO - server-graphbase - Adding entity 1/2
+2025-02-27 17:17:48,331 - INFO - server-graphbase - Adding entity 2/2
+2025-02-27 17:21:55,458 - DEBUG - server-database - Get graph node 张三
+2025-02-27 17:47:25,639 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-02-27 17:48:11,238 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-02-27 17:48:44,496 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-02-27 17:48:52,121 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST']
+2025-02-27 17:49:02,766 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST']
+2025-02-27 17:49:33,461 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST']
+2025-02-27 17:49:36,672 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-02-27 17:49:48,145 - DEBUG - server-database - Get graph node 张三
+2025-02-27 17:50:26,753 - DEBUG - server-database - Get graph node 张三
+2025-02-27 17:59:34,889 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST']
+2025-02-27 18:12:20,329 - DEBUG - server-chat - Web history: [{'role': 'user', 'content': 'HI'}, {'role': 'assistant', 'content': 'Hello! How can I assist you today?'}, {'role': 'user', 'content': '张三的兄弟是谁'}]
+2025-02-27 18:19:31,296 - DEBUG - server-chat - Web history: [{'role': 'user', 'content': 'HI'}, {'role': 'assistant', 'content': 'Hello! How can I assist you today?'}, {'role': 'user', 'content': '张三的兄弟是谁'}, {'role': 'assistant', 'content': '张三的兄弟是张康。'}, {'role': 'user', 'content': '张三的兄弟是谁'}]

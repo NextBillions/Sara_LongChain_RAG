@@ -1,0 +1,48 @@
+2025-03-01 14:57:51,484 - INFO - Config - Loading config from saves\config\config.yaml
+2025-03-01 14:57:51,486 - INFO - Yuxi - Selecting model from openai with gpt-4o-mini
+2025-03-01 14:57:52,622 - INFO - EmbeddingModel - Loading embedding model bge-large-zh-v1.5 from E:/githubItem/JB-Know/src/models/BAAI/bge-large-zh-v1.5
+2025-03-01 14:57:53,246 - INFO - EmbeddingModel - Embedding model bge-large-zh-v1.5 loaded
+2025-03-01 14:57:54,061 - INFO - KnowledgeBase - Successfully connected to Milvus at http://192.168.32.100:19530
+2025-03-01 14:57:54,262 - INFO - server-graphbase - Connecting to Neo4j at bolt://192.168.32.100:7687/neo4j
+2025-03-01 14:57:54,691 - INFO - server-graphbase - Connected to Neo4j at bolt://192.168.32.100:7687/neo4j, {'database_name': 'neo4j', 'entity_count': 400, 'relationship_count': 379, 'triples_count': 379, 'labels': ['Entity'], 'status': 'open'}
+2025-03-01 14:57:54,692 - INFO - EmbeddingModel - Loading Reranker model bge-reranker-v2-m3 from E:/githubItem/JB-Know/src/models/BAAI/bge-reranker-v2-m3
+2025-03-01 14:57:55,506 - INFO - EmbeddingModel - Reranker model bge-reranker-v2-m3 loaded
+2025-03-01 14:58:20,817 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST']
+2025-03-01 14:58:31,551 - DEBUG - server-chat - Web history: [{'role': 'user', 'content': 'hi'}]
+2025-03-01 15:00:27,855 - DEBUG - server-chat - Web history: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': 'Hello! How can I assist you today?'}, {'role': 'user', 'content': 'hi'}]
+2025-03-01 15:00:59,433 - DEBUG - server-chat - Web history: [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': 'Hello! How can I assist you today?'}, {'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': 'Hi there! How can I help you today?'}, {'role': 'user', 'content': 'hi'}]
+2025-03-01 15:02:10,007 - DEBUG - server-chat - Web history: [{'role': 'user', 'content': '写一个冒泡排序'}]
+2025-03-01 15:02:42,789 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-03-01 16:04:57,601 - WARNING - DataBaseManager - Database number not match, ['TTEST', 'k2af3d318']
+2025-03-01 16:05:03,895 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST']
+2025-03-01 16:05:12,944 - DEBUG - server-database - Create database tst
+2025-03-01 16:05:12,949 - INFO - KnowledgeBase - collection_name  Milvus at k9301c2a7
+2025-03-01 16:05:14,127 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST', 'k9301c2a7']
+2025-03-01 16:05:14,146 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST', 'k9301c2a7']
+2025-03-01 16:05:39,108 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:00,445 - DEBUG - server-database - Add document in 9301c2a7 by file: ['saves\\data/uploads\\test_4812_.pdf']
+2025-03-01 16:09:00,445 - ERROR - DataBaseManager - ============== 9301c2a7
+2025-03-01 16:09:02,975 - INFO - DataBaseManager - Try to read file saves\data/uploads\test_4812_.pdf
+2025-03-01 16:09:17,263 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,279 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,292 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,312 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,338 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,355 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,385 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,413 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,446 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,478 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,500 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,516 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,530 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,545 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,558 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,570 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 16:09:17,583 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 18:20:49,893 - DEBUG - server-database - Get database 9301c2a7 info
+2025-03-01 18:20:51,913 - WARNING - DataBaseManager - Database number not match, ['k2af3d318', 'TTEST', 'k9301c2a7']
+2025-03-01 18:21:23,190 - DEBUG - server-chat - Web history: [{'role': 'user', 'content': '贾宝玉今年多少岁？'}]
+2025-03-01 18:21:27,069 - DEBUG - server-chat - {'query': '请用一个很短的句子关于下面的对话内容的主题起一个名字，不要带标点符号：\n\n问题: 贾宝玉今年多少岁？\n\n回复: 根据提供的资料，我们无法找到贾宝玉今年的年龄。资料中主要涉及人物之间的关系，没有关于年龄的信息。如果需要贾宝玉的年龄，可能需要查阅其他的文学资料或相关作品中的具体描写。，主题是（一句话）：', 'response': '贾宝玉的年龄无从得知'}
+2025-03-01 18:50:41,964 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-03-01 18:51:17,701 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes

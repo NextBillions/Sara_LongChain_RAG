@@ -1,0 +1,82 @@
+{
+    "databases": [
+        {
+            "name": "tst",
+            "description": "",
+            "db_type": "knowledge",
+            "db_id": "9301c2a7",
+            "embed_model": "bge-large-zh-v1.5",
+            "metaname": "k9301c2a7",
+            "metadata": {
+                "collection_name": "k9301c2a7",
+                "auto_id": false,
+                "num_shards": 1,
+                "description": "",
+                "fields": [
+                    {
+                        "field_id": 100,
+                        "name": "id",
+                        "description": "",
+                        "type": 5,
+                        "params": {},
+                        "is_primary": true
+                    },
+                    {
+                        "field_id": 101,
+                        "name": "vector",
+                        "description": "",
+                        "type": 101,
+                        "params": {
+                            "dim": 1024
+                        }
+                    }
+                ],
+                "functions": [],
+                "aliases": [],
+                "collection_id": 456298016844962582,
+                "consistency_level": 2,
+                "properties": {},
+                "num_partitions": 1,
+                "enable_dynamic_field": true,
+                "row_count": 85
+            },
+            "files": [
+                {
+                    "file_id": "file_c82f8839",
+                    "filename": "test_4812_.pdf",
+                    "path": "saves\\data/uploads\\test_4812_.pdf",
+                    "type": "pdf",
+                    "status": "done",
+                    "created_at": 1740816540.445471
+                },
+                {
+                    "file_id": "file_44570a3c",
+                    "filename": "cjb_6139_.docx",
+                    "path": "saves\\data/uploads\\cjb_6139_.docx",
+                    "type": "docx",
+                    "status": "done",
+                    "created_at": 1740827048.344479
+                },
+                {
+                    "file_id": "file_977f44cc",
+                    "filename": "cjb_d492_.docx",
+                    "path": "saves\\data/uploads\\cjb_d492_.docx",
+                    "type": "docx",
+                    "status": "done",
+                    "created_at": 1740833258.4833314
+                }
+            ],
+            "dimension": 1024
+        }
+    ],
+    "graph": {
+        "database_name": "neo4j",
+        "entity_count": 402,
+        "relationship_count": 381,
+        "triples_count": 381,
+        "labels": [
+            "Entity"
+        ],
+        "status": "open"
+    }
+}

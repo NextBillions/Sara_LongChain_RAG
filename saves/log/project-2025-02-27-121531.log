@@ -1,0 +1,11 @@
+2025-02-27 12:17:15,331 - INFO - Config - Loading config from saves\config\config.yaml
+2025-02-27 12:17:17,547 - WARNING - Config - 
+
+======================================================================
+                        Config file not found                         
+       You can custum your config in `saves\config\config.yaml`       
+======================================================================
+
+
+2025-02-27 12:17:22,954 - WARNING - Config - Model name None not in openai, using default model name
+2025-02-27 12:17:42,348 - INFO - Yuxi - Selecting model from openai with gpt-4o-mini

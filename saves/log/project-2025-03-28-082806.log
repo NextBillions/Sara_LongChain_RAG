@@ -1,0 +1,3 @@
+2025-03-28 08:28:23,758 - INFO - Config - Loading config from saves\config\config.yaml
+2025-03-28 08:28:23,767 - INFO - JBLOG - Selecting model from openai with gpt-4o-mini
+2025-03-28 08:28:27,017 - INFO - EmbeddingModel - Loading embedding model bge-large-zh-v1.5 from /app/src/models/JBAI/bge-large-zh-v1.5

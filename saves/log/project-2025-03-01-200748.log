@@ -1,0 +1,16 @@
+2025-03-01 20:07:58,629 - INFO - Config - Loading config from saves\config\config.yaml
+2025-03-01 20:07:58,631 - INFO - Yuxi - Selecting model from openai with gpt-4o-mini
+2025-03-01 20:07:59,948 - INFO - EmbeddingModel - Loading embedding model bge-large-zh-v1.5 from E:/githubItem/JB-Know/src/models/BAAI/bge-large-zh-v1.5
+2025-03-01 20:08:00,716 - INFO - EmbeddingModel - Embedding model bge-large-zh-v1.5 loaded
+2025-03-01 20:08:01,595 - INFO - KnowledgeBase - Successfully connected to Milvus at http://192.168.32.100:19530
+2025-03-01 20:08:01,840 - INFO - server-graphbase - Connecting to Neo4j at bolt://192.168.32.100:7687/neo4j
+2025-03-01 20:08:01,882 - INFO - server-graphbase - Connected to Neo4j at bolt://192.168.32.100:7687/neo4j, {'database_name': 'neo4j', 'entity_count': 402, 'relationship_count': 381, 'triples_count': 381, 'labels': ['Entity'], 'status': 'open'}
+2025-03-01 20:08:01,883 - INFO - EmbeddingModel - Loading Reranker model bge-reranker-v2-m3 from E:/githubItem/JB-Know/src/models/BAAI/bge-reranker-v2-m3
+2025-03-01 20:08:02,764 - INFO - EmbeddingModel - Reranker model bge-reranker-v2-m3 loaded
+2025-03-01 20:08:26,118 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-03-01 20:08:44,284 - DEBUG - server-common - refs['meta']={'enable_retrieval': True, 'use_graph': True, 'use_web': False, 'graph_name': 'neo4j', 'rewriteQuery': 'off', 'selectedKB': 0, 'stream': True, 'summary_title': True, 'history_round': 5, 'db_name': 'k9301c2a7'}
+2025-03-01 20:08:59,027 - DEBUG - server-chat - Web history: [{'role': 'user', 'content': '贾宝玉今年多少岁？'}, {'role': 'assistant', 'content': '根据提供的资料，我们无法找到贾宝玉今年的年龄。资料中主要涉及人物之间的关系，没有关于年龄的信息。如果需要贾宝玉的年龄，可能需要查阅其他的文学资料或相关作品中的具体描写。'}, {'role': 'user', 'content': '上海在哪里'}, {'role': 'assistant', 'content': '上海是中国的一座直辖市，位于中国东部的沿海地区。具体来说，上海位于长江入海口的南岸，是中国最大的城市之一，也是国际金融和贸易中心。它东临太平洋，西接江苏省，北邻浙江省。上海以其繁忙的港口、高楼大厦、丰富的文化和历史而闻名。'}, {'role': 'user', 'content': 'hi'}]
+2025-03-01 20:16:09,627 - DEBUG - server-common - refs['meta']={'enable_retrieval': True, 'use_graph': True, 'use_web': False, 'graph_name': 'neo4j', 'rewriteQuery': 'off', 'selectedKB': 0, 'stream': True, 'summary_title': True, 'history_round': 5, 'db_name': 'k9301c2a7'}
+2025-03-01 20:16:18,467 - DEBUG - server-chat - Web history: [{'role': 'user', 'content': '贾宝玉今年多少岁？'}, {'role': 'assistant', 'content': '根据提供的资料，我们无法找到贾宝玉今年的年龄。资料中主要涉及人物之间的关系，没有关于年龄的信息。如果需要贾宝玉的年龄，可能需要查阅其他的文学资料或相关作品中的具体描写。'}, {'role': 'user', 'content': '上海在哪里'}, {'role': 'assistant', 'content': '上海是中国的一座直辖市，位于中国东部的沿海地区。具体来说，上海位于长江入海口的南岸，是中国最大的城市之一，也是国际金融和贸易中心。它东临太平洋，西接江苏省，北邻浙江省。上海以其繁忙的港口、高楼大厦、丰富的文化和历史而闻名。'}, {'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': 'Hello! How can I assist you today?'}, {'role': 'user', 'content': 'HI'}]
+2025-03-01 20:21:57,785 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
+2025-03-01 20:22:01,753 - DEBUG - server-database - Get graph nodes in neo4j with 10 nodes

@@ -1,0 +1,3 @@
+2025-02-27 14:41:12,235 - INFO - Config - Loading config from saves\config\config.yaml
+2025-02-27 14:41:12,242 - INFO - Yuxi - Selecting model from openai with gpt-4o-mini
+2025-02-27 14:41:17,945 - INFO - EmbeddingModel - Loading embedding model bge-large-zh-v1.5 from /app/src/models/BAAI/bge-large-zh-v1.5

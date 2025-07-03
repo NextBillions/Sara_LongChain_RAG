@@ -1,0 +1,11 @@
+2025-03-28 12:14:57,662 - INFO - Config - Loading config from saves\config\config.yaml
+2025-03-28 12:14:57,663 - WARNING - Config - 
+
+======================================================================
+                        Config file not found                         
+       You can custum your config in `saves\config\config.yaml`       
+======================================================================
+
+
+2025-03-28 12:14:57,663 - WARNING - Config - Model name None not in openai, using default model name
+2025-03-28 12:15:01,789 - INFO - JBLOG - Selecting model from openai with gpt-4o-mini

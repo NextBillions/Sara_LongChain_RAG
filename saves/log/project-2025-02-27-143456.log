@@ -1,0 +1,30 @@
+2025-02-27 14:35:03,829 - INFO - Config - Loading config from saves\config\config.yaml
+2025-02-27 14:35:03,830 - WARNING - Config - 
+
+======================================================================
+                        Config file not found                         
+       You can custum your config in `saves\config\config.yaml`       
+======================================================================
+
+
+2025-02-27 14:35:03,830 - WARNING - Config - Model name None not in openai, using default model name
+2025-02-27 14:35:03,830 - INFO - Yuxi - Selecting model from openai with gpt-4o-mini
+2025-02-27 14:35:20,854 - DEBUG - server-chat - Web history: [{'role': 'user', 'content': 'HI'}]
+2025-02-27 14:35:24,375 - DEBUG - server-chat - {'query': '请用一个很短的句子关于下面的对话内容的主题起一个名字，不要带标点符号：\n\n问题: HI\n\n回复: Hello! How can I assist you today?，主题是（一句话）：', 'response': '问候与服务'}
+2025-02-27 14:37:26,897 - INFO - Config - Saving config to saves\config\config.yaml
+2025-02-27 14:37:26,900 - INFO - Config - Config file saves\config\config.yaml saved
+2025-02-27 14:37:28,551 - INFO - Startup - Restarting...
+2025-02-27 14:37:28,552 - INFO - Config - Loading config from saves\config\config.yaml
+2025-02-27 14:37:28,553 - INFO - Yuxi - Selecting model from openai with gpt-4o-mini
+2025-02-27 14:37:28,933 - INFO - Startup - Restarted
+2025-02-27 14:37:53,975 - INFO - Config - Saving config to saves\config\config.yaml
+2025-02-27 14:37:53,976 - INFO - Config - Config file saves\config\config.yaml saved
+2025-02-27 14:37:54,688 - INFO - Config - Saving config to saves\config\config.yaml
+2025-02-27 14:37:54,689 - INFO - Config - Config file saves\config\config.yaml saved
+2025-02-27 14:37:56,105 - INFO - Config - Saving config to saves\config\config.yaml
+2025-02-27 14:37:56,106 - INFO - Config - Config file saves\config\config.yaml saved
+2025-02-27 14:37:57,312 - INFO - Startup - Restarting...
+2025-02-27 14:37:57,312 - INFO - Config - Loading config from saves\config\config.yaml
+2025-02-27 14:37:57,314 - INFO - Yuxi - Selecting model from openai with gpt-4o-mini
+2025-02-27 14:37:57,674 - INFO - EmbeddingModel - Loading embedding model bge-large-zh-v1.5 from /app/src/models/BAAI/bge-large-zh-v1.5
+2025-02-27 14:38:00,653 - DEBUG - server-database - Get graph nodes in neo4j with 100 nodes
