@@ -1,0 +1,5 @@
+intents:
+  deploy_instruction:
+    pattern: ".*(deploy|OKE|helm).*"
+    systemPrompt: |
+      You are a DevOps assistant. Help the user deploy to Oracle Kubernetes Engine.
